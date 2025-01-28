@@ -43,7 +43,7 @@ public boolean palindrome(String word)
         a += word.substring(i,i+1);
       }
     }
-    
+    a = a.toLowerCase();
     if(reverse(a).equals(a)){
       return true;
     }
